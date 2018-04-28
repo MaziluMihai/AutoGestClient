@@ -3,11 +3,11 @@ package ro.autogest.client.repository.model;
 public class CredentialeLogin {
 
     private String email;
-    private String password;
+    private String parola;
 
     public CredentialeLogin(String email, String password) {
         this.email = email;
-        this.password = password;
+        this.parola = password;
     }
 
     public CredentialeLogin() {
@@ -19,10 +19,10 @@ public class CredentialeLogin {
     public void setEmail(String email) {
         this.email = email;
     }
-    public String getPassword() {
-        return password;
+    public String getParola() {
+        return parola;
     }
-    public void setPassword(String password) {
-        this.password = password;
+    public void setParola(String parola) {
+        this.parola = parola;
     }
 }
